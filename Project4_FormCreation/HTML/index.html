@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Creation</title>
+  </head>
+  <body>
+    <form>
+      <label for="Name">Name: </label>
+      <input type="text" name="name" value="name" /><br/>
+      <label for="Password">Password: </label>
+      <input type="password" name="password"/><br/>
+      <label for="email">Email: </label>
+      <input type="email" name="email" /><br/>
+      <label for="date">Date: </label>
+      <input type="date" name="date" /><br/>
+      <label for="datetime-local">Date Time Local: </label>
+      <input type="datetime-local" name="datetime" /><br/>
+      <label for="Hidden">Hidden: </label>
+      <input type="hidden" name="hidden" /><br/>
+      <label for="Range">Range: </label>
+      <input type="range" name="range" /><br/>
+      <label for="Color">Color: </label>
+      <input type="color" name:"color" /><br/>
+      <label for="month">Month: </label>
+      <input type="month" name="month" /><br/>
+      <label for="number">Number: </label>
+      <input type="number" name="number" /><br/>
+      <label for="week">Week: </label>
+      <input type="week" name="week" /><br/>
+      <label for="tel">Telephone: </label>
+      <input type="tel" name="tel" /><br/>
+      <label for="time">Time: </label>
+      <input type="time" name="time" /><br/>
+      <label for="search">Search: </label>
+      <input type="search" name="search" /><br/>
+      <label for="file">File: </label>
+      <input type="file" name="file" /><br/>
+      <label for="image">Image: </label>
+      <input type="image" name="image" /><br/>
+      <label for="url">URL: </label>
+      <input type="url" name="url" /><br/>
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <textarea name="message" rows="10" cols="30">
+      The cat was playing in the garden.
+      </textarea>
+      <input type="submit" name="submit" value="Submit" /><br/>
+      <fieldset>
+        <legend>CheckBox</legend>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+      </fieldset>
+      <fieldset>
+        <legend>Radio Button</legend>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </fieldset>
+      <input type="button" value="Click Me!">
+    </form>
+  </body>
+</html>
