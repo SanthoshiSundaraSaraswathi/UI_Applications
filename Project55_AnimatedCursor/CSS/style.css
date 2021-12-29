@@ -1,0 +1,28 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+cursor: none;
+}
+body {
+display: grid;
+place-items: end center;  /* top centre */
+height: 100vh;  /* Must be 100vh for system cursor not to show */
+}
+/* style the cursor */
+.cursor {
+position: fixed;
+font-size: 25pt;
+transform: translate(-50%, -50%);
+pointer-events: none;
+transition: font-size .1s ease, opacity .1s ease;
+background-color : rgba(255,255,255,0);
+}
+.cursor.link {
+font-size: 65pt;
+opacity: 1;
+}
+img.animated-gif{
+  width: 50px;
+  height: auto;
+}
